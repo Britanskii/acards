@@ -1,0 +1,42 @@
+.item
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    position: relative
+    background-color: white
+    height: 600px
+    width: 100%
+    &__information
+        padding: 70px
+        position: relative
+        z-index: 1
+    &__title
+        white-space: pre
+        display: flex
+        font-size: 46px
+    &__subtitle
+        margin-top: 15px
+        font-size: 24px
+        font-weight: lighter
+    &__button
+        margin-top: 15px
+        background-color: white
+        color: #7176F7
+        border: none
+        font-size: 24px
+        padding: 5px
+        height: 60px
+        min-width: 220px
+    &__accent
+        font-weight: bold
+    &__gradient
+        z-index: 1
+        position: absolute
+        height: 100%
+        width: 100%
+        background: linear-gradient(90deg, #7176F7 16.67%, rgba(217, 217, 217, 0) 100%)
+    &__image
+        position: absolute
+        z-index: 0
+        right: 0
+        top: 0
