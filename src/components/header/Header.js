@@ -9,7 +9,7 @@ const Header = () => {
         <header className={s.header}>
             <div className={s.header__logo}>
                 <img className={s.header__image} src={logo}/>
-               <div className={s.header__accent}>A</div>CARDS
+               <span className={s.header__accent}>A</span>CARDS
             </div>
             <div className={s.header__navigation}>
                 <LineText active={true}>
