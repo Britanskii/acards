@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f7833b13.css",
+    "main.js": "./static/js/main.b8f595ca.js",
+    "static/media/owner.jpg": "./static/media/owner.51c561d1e25c79f3aad4.jpg",
+    "static/media/mark.jpg": "./static/media/mark.24f86253baac55eab51e.jpg",
+    "static/media/musk.jpg": "./static/media/musk.cb2164065b04159b6c4a.jpg",
+    "static/media/gates.jpg": "./static/media/gates.cb9655c1b9ce3aab745a.jpg",
+    "static/media/trump.jpg": "./static/media/trump.939cb4d2e79adeefe396.jpg",
+    "static/media/durov.jpg": "./static/media/durov.13e301f0d3aae162c5ca.jpg",
+    "static/media/jobs.jpg": "./static/media/jobs.302d93012124ccc2d84e.jpg",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "static/media/spades.svg": "./static/media/spades.95fe5de255eddce39294579101f89c50.svg",
+    "index.html": "./index.html",
+    "main.f7833b13.css.map": "./static/css/main.f7833b13.css.map",
+    "main.b8f595ca.js.map": "./static/js/main.b8f595ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7833b13.css",
+    "static/js/main.b8f595ca.js"
+  ]
+}
