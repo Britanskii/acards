@@ -1,6 +1,9 @@
+@use "../../styles/fontSizes"
+@use "../../styles/functions"
+
 .header
-    font-size: 24px
-    padding: 25px
+    font-size: fontSizes.$middle
+    padding: functions.toRem(25) 0
     display: flex
     align-items: center
     justify-content: space-between
@@ -8,8 +11,8 @@
         align-items: center
         display: flex
     &__image
-        margin-right: 10px
-        width: 30px
+        margin-right: functions.toRem(10)
+        width: functions.toRem(30)
     &__accent
         font-weight: bold
         color: #7176F7
@@ -17,4 +20,4 @@
         font-weight: 300
         display: flex
         & > *:not(:last-child)
-            margin-right: 45px
+            margin-right: functions.toRem(45)

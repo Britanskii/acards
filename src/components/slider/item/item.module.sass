@@ -1,32 +1,36 @@
+@use "../../../styles/functions"
+@use "../../../styles/fontSizes"
+
 .item
     display: flex
     flex-direction: column
     justify-content: flex-end
     position: relative
-    background-color: white
-    height: 600px
+    //background-color: white
+    height: functions.toRem(600)
     width: 100%
     &__information
-        padding: 70px
+        padding: functions.toRem(70)
         position: relative
         z-index: 1
     &__title
         white-space: pre
         display: flex
-        font-size: 46px
+        font-size: fontSizes.$big
     &__subtitle
-        margin-top: 15px
-        font-size: 24px
+        margin-top: functions.toRem(15)
+        font-size: fontSizes.$middle
         font-weight: lighter
     &__button
-        margin-top: 15px
+        cursor: pointer
+        margin-top: functions.toRem(15)
         background-color: white
         color: #7176F7
         border: none
-        font-size: 24px
-        padding: 5px
-        height: 60px
-        min-width: 220px
+        font-size: fontSizes.$middle
+        padding: functions.toRem(5)
+        height: functions.toRem(60)
+        min-width: functions.toRem(220)
     &__accent
         font-weight: bold
     &__gradient
@@ -36,7 +40,9 @@
         width: 100%
         background: linear-gradient(90deg, #7176F7 16.67%, rgba(217, 217, 217, 0) 100%)
     &__image
+        height: 85%
         position: absolute
         z-index: 0
-        right: 0
-        top: 0
+        transform: translateY(-50%)
+        top: 50%
+        right: functions.toRem(50)

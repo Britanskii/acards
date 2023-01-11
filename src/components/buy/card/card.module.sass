@@ -1,0 +1,35 @@
+@use "../../../styles/functions"
+@use "../../../styles/fontSizes"
+
+.card
+    position: relative
+    display: flex
+    justify-content: space-between
+    background: rgb(113,118,247)
+    background: linear-gradient(180deg, rgba(113,118,247,1) 0%, rgba(0,212,255,0) 80%)
+    &__information
+        display: flex
+        flex-direction: column
+        gap: functions.toRem(10)
+        padding: functions.toRem(20) functions.toRem(20) 0
+
+    &__title
+        font-size: fontSizes.$default
+
+    &__subtitle
+        font-size: fontSizes.$middle
+
+    &__image
+        height: 100%
+        object-fit: contain
+
+    &__button
+        cursor: pointer
+        margin-top: auto
+        background-color: white
+        color: #7176F7
+        border: none
+        font-size: fontSizes.$middle
+        padding: functions.toRem(5)
+        height: functions.toRem(60)
+        min-width: functions.toRem(220)

@@ -1,7 +1,7 @@
 import s from "./slider.module.sass"
 import SliderSlick  from "react-slick"
 import Item from "./item/Item";
-
+import products from "../../data/products";
 
 const Slider = () => {
 
@@ -15,9 +15,9 @@ const Slider = () => {
 
     return (
         <SliderSlick className={s.slider} {...settings}>
-            <Item/>
-            <Item/>
-            <Item/>
+            {products.map(({title, subtitle, image}) =>
+                <Item title={title} subtitle={subtitle} image={image}/>
+            )}
         </SliderSlick>
     )
 }
