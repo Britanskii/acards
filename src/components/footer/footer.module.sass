@@ -1,0 +1,23 @@
+@use "../../styles/fontSizes"
+@use "../../styles/functions"
+
+.footer
+    font-size: fontSizes.$middle
+    padding: functions.toRem(25) 0
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: functions.toRem(100)
+    &__logo
+        align-items: center
+        display: flex
+
+    &__image
+        margin-right: functions.toRem(10)
+        width: functions.toRem(30)
+
+    &__accent
+        font-weight: bold
+        color: #7176F7
+    &__copyright
+        font-size: fontSizes.$default

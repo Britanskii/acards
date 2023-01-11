@@ -7,6 +7,7 @@ import Slider from "./components/slider/Slider";
 import Wrapper from "./components/wrapper/Wrapper";
 import Buy from "./components/buy/Buy";
 import About from "./components/about/About";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Slider/>
             <Buy/>
             <About/>
+            <Footer/>
         </Wrapper>
     )
 }
