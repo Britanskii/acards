@@ -22,4 +22,16 @@
         font-weight: bold
         color: #7176F7
     &__copyright
+        text-align: right
         font-size: fontSizes.$default
+
+@media (max-width: 1000px)
+    .footer
+        &__content
+            height: functions.toRem(50)
+            font-size: fontSizes.$mobileMiddle
+        &__copyright
+            font-size: fontSizes.$mobileMiddle
+        &__image
+            width: functions.toRem(10)
+            margin-right: functions.toRem(3)
