@@ -1,4 +1,5 @@
 @use "../../../styles/functions"
+@use "../../../styles/fontSizes"
 
 .client
     display: flex
@@ -10,3 +11,10 @@
         height: functions.toRem(300)
         object-fit: cover
         border-radius: 50%
+
+@media (max-width: 1000px)
+    .client
+        font-size: fontSizes.$mobileMiddle
+        &__image
+            width: functions.toRem(180)
+            height: functions.toRem(180)

@@ -15,6 +15,15 @@
         display: block
         object-fit: cover
     &__message
+        line-height: 1.5
         text-align: justify
         font-size: fontSizes.$default
 
+@media (max-width: 1000px)
+    .about
+        &__image
+            margin: 0 auto
+        &__content
+            flex-direction: column
+        &__message
+            font-size: fontSizes.$mobileMiddle
