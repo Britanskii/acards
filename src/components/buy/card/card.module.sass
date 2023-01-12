@@ -33,3 +33,27 @@
         padding: functions.toRem(5)
         height: functions.toRem(60)
         min-width: functions.toRem(220)
+
+@media (max-width: 1000px)
+    .card
+        background: none
+        flex-direction: column-reverse
+        &__image
+            width: 100%
+            height: inherit
+        &__information
+            min-height: functions.toRem(80)
+            gap: functions.toRem(5)
+            padding: functions.toRem(10)
+            width: 100%
+            position: absolute
+            background: rgb(113,118,247)
+        &__title
+            font-size: fontSizes.$mobileDefault
+
+        &__subtitle
+            font-size: fontSizes.$mobileMiddle
+        &__button
+            font-size:  fontSizes.$mobileMiddle
+            min-width: functions.toRem(100)
+            height: functions.toRem(25)

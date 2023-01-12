@@ -25,3 +25,12 @@
         display: flex
         & > *:not(:last-child)
             margin-right: functions.toRem(45)
+
+@media (max-width: 1000px)
+    .header
+        font-size: fontSizes.$mobileMiddle
+        &__image
+            width: functions.toRem(10)
+        &__navigation
+            & > *:not(:last-child)
+                margin-right: functions.toRem(10)
