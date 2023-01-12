@@ -2,12 +2,14 @@
 @use "../../styles/functions"
 
 .footer
-    font-size: fontSizes.$middle
-    padding: functions.toRem(25) 0
-    display: flex
-    align-items: center
-    justify-content: space-between
-    height: functions.toRem(100)
+    margin-top: functions.toRem(50)
+    &__content
+        font-size: fontSizes.$middle
+        padding: functions.toRem(25) 0
+        display: flex
+        align-items: center
+        justify-content: space-between
+        height: functions.toRem(100)
     &__logo
         align-items: center
         display: flex

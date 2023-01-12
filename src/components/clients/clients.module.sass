@@ -1,0 +1,16 @@
+@use "../../styles/functions"
+@use "../../styles/fontSizes"
+
+.clients
+    display: block
+    margin-top: functions.toRem(50)
+    &__title
+        width: fit-content
+        font-size: fontSizes.$middle
+        text-transform: uppercase
+        margin: 0 auto
+    &__items
+        margin-top: functions.toRem(20)
+        display: flex
+        justify-content: space-between
+

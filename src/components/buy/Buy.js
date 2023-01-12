@@ -5,11 +5,11 @@ import Card from "./card/Card";
 const Buy = () => {
 
     return (
-        <div className={s.buy}>
+        <a name="buy" className={s.buy}>
             {products.map(({title, subtitle, image}) =>
                 <Card title={title} subtitle={subtitle} image={image}/>
             )}
-        </div>
+        </a>
     )
 }
 

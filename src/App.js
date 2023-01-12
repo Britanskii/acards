@@ -8,6 +8,7 @@ import Wrapper from "./components/wrapper/Wrapper";
 import Buy from "./components/buy/Buy";
 import About from "./components/about/About";
 import Footer from "./components/footer/Footer";
+import Clients from "./components/clients/Clients";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
             <Slider/>
             <Buy/>
             <About/>
+            <Clients/>
             <Footer/>
         </Wrapper>
     )

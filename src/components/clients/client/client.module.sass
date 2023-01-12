@@ -1,0 +1,12 @@
+@use "../../../styles/functions"
+
+.client
+    display: flex
+    flex-direction: column
+    gap: functions.toRem(10)
+    align-items: center
+    &__image
+        width: functions.toRem(300)
+        height: functions.toRem(300)
+        object-fit: cover
+        border-radius: 50%
